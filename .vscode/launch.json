@@ -6,6 +6,13 @@
       "name": "demo",
       "request": "launch",
       "mainClass": "demo",
+      "projectName": "05_DS_Hash_Tree_BackTracking_Heap_9795ff51"
+    },
+    {
+      "type": "java",
+      "name": "demo",
+      "request": "launch",
+      "mainClass": "demo",
       "projectName": "Data Structure 3 HashMap_41bbed50"
     },
     {
