@@ -61,7 +61,7 @@ class Implementation {
 
 
     public static void main(String[] args) {
-      
+    
         Node root = new Node(2);
 
         // create a node and define in tree 

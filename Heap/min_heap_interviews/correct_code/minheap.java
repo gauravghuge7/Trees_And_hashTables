@@ -20,37 +20,37 @@ class Node {
 
 
 class MinHeap {
-   public Node root;
+    public Node root;
 
-   public MinHeap() {}
+    public MinHeap() {}
 
-   public void insert(int val) {
-       Node newNode = new Node(val);
-       if (root == null) {
-           root = newNode;
-           return;
-       }
+    public void insert(int val) {
+        Node newNode = new Node(val);
+        if (root == null) {
+            root = newNode;
+            return;
+        }
 
-       Queue<Node> queue = new LinkedList<>();
-       queue.add(root);
-       while (!queue.isEmpty()) {
-           Node temp = queue.poll();
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            Node temp = queue.poll();
 
-           if (temp.left == null) {
-               temp.left = newNode;
-               break;
-           } else {
-               queue.add(temp.left);
-           }
+            if (temp.left == null) {
+                temp.left = newNode;
+                break;
+            } else {
+                queue.add(temp.left);
+            }
 
-           if (temp.right == null) {
-               temp.right = newNode;
-               break;
-           } else {
-               queue.add(temp.right);
-           }
-       }
-       heapifyUp(newNode);
+            if (temp.right == null) {
+                temp.right = newNode;
+                break;
+            } else {
+                queue.add(temp.right);
+            }
+        }
+        heapifyUp(newNode);
    }
 
    private void heapifyUp(Node node) {
