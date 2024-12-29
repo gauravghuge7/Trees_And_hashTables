@@ -29,7 +29,12 @@ public class index {
  
       Character ch = '5';
 
-      System.out.println(ch.charValue());
-      
+//      System.out.println(ch.charValue());
+
+
+      String s = "abcd";
+
+
+      System.out.println(s.split("a", 1));
    }
 }
