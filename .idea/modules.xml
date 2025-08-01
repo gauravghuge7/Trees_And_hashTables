@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/05_DS_Hash_Tree_BackTracking_Heap.iml" filepath="$PROJECT_DIR$/05_DS_Hash_Tree_BackTracking_Heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary_Trees/Binary_Trees.iml" filepath="$PROJECT_DIR$/Binary_Trees/Binary_Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic_Tree/Generic_Tree.iml" filepath="$PROJECT_DIR$/Generic_Tree/Generic_Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hashmaps/Hashmaps.iml" filepath="$PROJECT_DIR$/Hashmaps/Hashmaps.iml" />
     </modules>
   </component>
