@@ -49,7 +49,6 @@ public class Hashmap_Implementation {
         private int HashFunc(K key) {
 
             int b_index = key.hashCode();
-
             return Math.abs(b_index) % buckets.length;
         }
 
@@ -63,6 +62,7 @@ public class Hashmap_Implementation {
             }
             return -1;
         }
+        
         private void reHash() {
             LinkedList<Node>[] oldBuckets = buckets;
 
@@ -111,6 +111,7 @@ public class Hashmap_Implementation {
             }
             return  null;
         }
+
         public V remove(K key) {
             int index = HashFunc(key);
             LinkedList<Node> currBucket = buckets[index];
